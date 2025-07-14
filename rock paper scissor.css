@@ -78,6 +78,8 @@ img {
 }
 #btn {
   background-image: url("refresh.jpg");
+  z-index:2;
+  background-color:blue;
   background-size: cover;
   border: none;
   width:1.5em;
