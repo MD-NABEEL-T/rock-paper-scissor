@@ -77,11 +77,11 @@ img {
   color:red;
 }
 #btn {
-  background-image: url("refresh.jpg");
-  z-index:2;
-  background-color:blue;
-  background-size: cover;
-  border: none;
+background-image: url("refresh.jpg");
+  background-color: transparent;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   width:1.5em;
   height:1.5em;
   margin-top: 1em;
@@ -89,6 +89,8 @@ img {
   /* border-radius: 15rem; */
   cursor: pointer;
   opacity:0.6;
+  border-radius: 50%;
+  display: inline-block;
 }
 #btn:hover {
   opacity:1;
