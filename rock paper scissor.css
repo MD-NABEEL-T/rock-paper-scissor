@@ -77,7 +77,7 @@ img {
   color:red;
 }
 #btn {
-  background-image: url("/refresh.jpg");
+  background-image: url("refresh.jpg");
   background-size: cover;
   border: none;
   width:1.5em;
